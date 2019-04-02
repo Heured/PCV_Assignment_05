@@ -36,6 +36,7 @@ with open('ar_camera.pkl','rb') as f:
 freeglut  ERROR:  Function <glutSolidTeapot> called without first calling 'glutInit'.
 ```
 ```python
+# 在语句前加glutInit()
 glutInit()
 glutSolidTeapot(size)
 ```
