@@ -31,3 +31,11 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 0: illegal mu
 #with open('ar_camera.pkl','r') as f:
 with open('ar_camera.pkl','rb') as f:
 ```
+3.
+```error
+freeglut  ERROR:  Function <glutSolidTeapot> called without first calling 'glutInit'.
+```
+```python
+glutInit()
+glutSolidTeapot(size)
+```
