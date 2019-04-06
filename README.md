@@ -40,3 +40,15 @@ freeglut  ERROR:  Function <glutSolidTeapot> called without first calling 'glutI
 glutInit()
 glutSolidTeapot(size)
 ```
+4.
+```error
+Traceback (most recent call last):
+  File "D:/pyCharm/pycharm_workspace/2019-4-2ZTGuJi/main.py", line 153, in <module>
+    draw_teapot(0.05)
+  File "D:/pyCharm/pycharm_workspace/2019-4-2ZTGuJi/main.py", line 111, in draw_teapot
+    glutSolidTeapot(size)
+OSError: exception: access violation reading 0x00000000000000C1
+```
+emmmm这..
+```python
+```
