@@ -57,5 +57,5 @@ emmmm这..
   
 解决办法：
   
-![emmmm]()
+![emmmm](https://github.com/Heured/PCV_Assignment_05/blob/master/imgToShow/solution_to_freeglut.PNG)
 
