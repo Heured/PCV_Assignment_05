@@ -16,9 +16,8 @@ TypeError: write() argument must be str, not bytes
 #with open('ar_camera.pkl','w') as f:
 with open('ar_camera.pkl','wb') as f:
 ```
-
-
-2.
+  
+  
 ```error
 Traceback (most recent call last):
   File "D:/pyCharm/pycharm_workspace/2019-4-2ZTGuJi/Prepare.py", line 132, in <module>
@@ -31,7 +30,9 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 0: illegal mu
 #with open('ar_camera.pkl','r') as f:
 with open('ar_camera.pkl','rb') as f:
 ```
-3.
+  
+  
+2.
 ```error
 freeglut  ERROR:  Function <glutSolidTeapot> called without first calling 'glutInit'.
 ```
@@ -40,7 +41,8 @@ freeglut  ERROR:  Function <glutSolidTeapot> called without first calling 'glutI
 glutInit()
 glutSolidTeapot(size)
 ```
-4.
+  
+然后出现了这个..
 ```error
 Traceback (most recent call last):
   File "D:/pyCharm/pycharm_workspace/2019-4-2ZTGuJi/main.py", line 153, in <module>
@@ -50,5 +52,10 @@ Traceback (most recent call last):
 OSError: exception: access violation reading 0x00000000000000C1
 ```
 emmmm这..
-```python
-```
+  
+  
+  
+解决办法：
+  
+![emmmm]()
+
