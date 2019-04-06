@@ -1,6 +1,12 @@
 # PCV_Assignment_05
 Augmented Reality test
-
+  
+## 以平面和标记物进行姿态估计
+  如果图像中包含平面状的标记物体，并且已经对照相机进行了标定，那么我们可以计算出照相机的姿态(旋转和平移)。这里的标记物体可以为对任何平坦的物体。
+  
+  这里，我们借助以下两图提取SIFT特征，然后使用RANSAC算法稳健地估计单应性矩阵：
+  图1：![emmm](https://github.com/Heured/PCV_Assignment_05/blob/master/imgToShow/ZiTai_1.png)
+  图2：![emmm](https://github.com/Heured/PCV_Assignment_05/blob/master/imgToShow/ZiTai_2.png)
 
 遇到问题：
 1.
